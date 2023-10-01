@@ -1,7 +1,7 @@
 [gd_scene load_steps=30 format=3 uid="uid://epl2we8i216"]
 
-[ext_resource type="Script" path="res://player_v_2.gd" id="1_behb6"]
-[ext_resource type="Texture2D" uid="uid://lsg0m1ixlqec" path="res://Player_Animations.png" id="2_nnox0"]
+[ext_resource type="Script" path="res://Entities/player_v_2.gd" id="1_jrgk8"]
+[ext_resource type="Texture2D" uid="uid://lsg0m1ixlqec" path="res://Assets/Player_Animations.png" id="2_48sgv"]
 
 [sub_resource type="Animation" id="Animation_hgrsv"]
 resource_name = "Player_Attack"
@@ -212,7 +212,7 @@ transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition
 size = Vector2(40, 65)
 
 [node name="PlayerV2" type="CharacterBody2D"]
-script = ExtResource("1_behb6")
+script = ExtResource("1_jrgk8")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -225,7 +225,7 @@ polygon = PackedVector2Array(501, 148, 517, 142, 545, 151, 544, 206, 526, 210, 5
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(691, 248)
-texture = ExtResource("2_nnox0")
+texture = ExtResource("2_48sgv")
 hframes = 8
 vframes = 5
 frame = 39

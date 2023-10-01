@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="Second Game"
-run/main_scene="res://player.tscn"
+run/main_scene="res://Entities/player.tscn"
 config/features=PackedStringArray("4.0", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [input]
 

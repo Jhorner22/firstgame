@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://darn8k53xe0aw"]
 
-[ext_resource type="Texture2D" uid="uid://dyf8s22b30u11" path="res://Magic Rock big.png" id="1_xfo1g"]
+[ext_resource type="Texture2D" uid="uid://dyf8s22b30u11" path="res://Assets/Magic Rock big.png" id="1_xfo1g"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4eriv"]
 texture = ExtResource("1_xfo1g")
