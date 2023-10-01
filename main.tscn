@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://c61mb8bt5qain"]
+
+[ext_resource type="PackedScene" uid="uid://clwnimi78bq3o" path="res://player.tscn" id="1_iotdi"]
+[ext_resource type="Script" path="res://main.gd" id="1_jd5x3"]
+
+[sub_resource type="Curve2D" id="Curve2D_5rl5j"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1152, 0, 0, 0, 0, 0, 1152, 648, 0, 0, 0, 0, 0, 648, 0, 0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[node name="Main" type="Node"]
+script = ExtResource("1_jd5x3")
+
+[node name="Player" parent="." instance=ExtResource("1_iotdi")]
+position = Vector2(169, 211)
+
+[node name="StartPosition" type="Marker2D" parent="."]
+position = Vector2(240, 450)
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_5rl5j")
+
+[node name="ScoreTimer" type="Timer" parent="."]
