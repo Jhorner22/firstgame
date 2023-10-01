@@ -1,18 +1,18 @@
 2a60927148abd1d33b818b535e306557
-::res://::1696141455
+::res://::1696176800
 Floor.tscn::PackedScene::7195205297883892618::1696135876::0::1::::<><>::uid://dyf8s22b30u11
 icon.svg::CompressedTexture2D::407128134152270429::1696129835::1696129967::1::::<><>::
 Magic Rock big.png::CompressedTexture2D::8856153452137993286::1696135876::1696135876::1::::<><>::
 main.gd::GDScript::-1::1696132335::0::1::::<>Node<>::
-main.tscn::PackedScene::7003101467197214109::1696139283::0::1::::<><>::uid://clwnimi78bq3o<>res://main.gd<>uid://dyf8s22b30u11<>uid://dspubf461vxrg
+main.tscn::PackedScene::7003101467197214109::1696142301::0::1::::<><>::uid://clwnimi78bq3o<>res://main.gd<>uid://dyf8s22b30u11<>uid://dspubf461vxrg
 Player(old).gd::GDScript::-1::1696131211::0::1::::<>Area2D<>::
 Player.gd::GDScript::-1::1696139230::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::5591139209387805086::1696139234::0::1::::<><>::res://Player.gd<>uid://bnthmmgbyc20c<>uid://c3oodni0en4c4<>uid://bx3lwbhvytyrf<>uid://b3u7o72it4y6t
+player.tscn::PackedScene::5591139209387805086::1696142300::0::1::::<><>::res://Player.gd<>uid://bnthmmgbyc20c<>uid://c3oodni0en4c4<>uid://bx3lwbhvytyrf<>uid://b3u7o72it4y6t
 Player_Animations.png::CompressedTexture2D::809645697235440018::1696141455::1696141456::1::::<><>::
-player_v_2.tscn::PackedScene::9189361983028303::1696141136::0::1::::<><>::res://player_v_2.gd<>uid://bwp5oeuh03l77
-player_v_2.gd::GDScript::-1::1696141136::0::1::::<>CharacterBody2D<>::
+player_v_2.gd::GDScript::-1::1696142299::0::1::::<>CharacterBody2D<>::
+player_v_2.tscn::PackedScene::9189361983028303::1696142303::0::1::::<><>::res://player_v_2.gd<>uid://lsg0m1ixlqec
 skeleton.gd::GDScript::-1::1696135652::0::1::::<>CharacterBody2D<>::
-skeleton.tscn::PackedScene::8454843337384191116::1696139234::0::1::::<><>::res://skeleton.gd<>uid://dm4qw3wvaa173<>uid://35ewqfwj7gpr
+skeleton.tscn::PackedScene::8454843337384191116::1696142301::0::1::::<><>::res://skeleton.gd<>uid://dm4qw3wvaa173<>uid://35ewqfwj7gpr
 ::res://Assets/::1696141337
 goblin attack.png::CompressedTexture2D::3338545916417528176::1696129835::1696135329::1::::<><>::
 goblin-death.png::CompressedTexture2D::6767886369392153629::1696129835::1696135329::1::::<><>::
