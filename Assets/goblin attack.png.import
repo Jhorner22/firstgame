@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3oodni0en4c4"
-path="res://.godot/imported/goblin-death.png-7b0de212c4ffb3b14bab59856d0a5af6.ctex"
+uid="uid://bnthmmgbyc20c"
+path="res://.godot/imported/goblin attack.png-b715e7c0176658a21973fbc54849bd83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://goblin-death.png"
-dest_files=["res://.godot/imported/goblin-death.png-7b0de212c4ffb3b14bab59856d0a5af6.ctex"]
+source_file="res://Assets/goblin attack.png"
+dest_files=["res://.godot/imported/goblin attack.png-b715e7c0176658a21973fbc54849bd83.ctex"]
 
 [params]
 

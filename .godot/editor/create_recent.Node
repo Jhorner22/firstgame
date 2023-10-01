@@ -1,0 +1,10 @@
+AnimatedSprite2D
+CollisionShape2D
+CharacterBody2D
+TileMap
+StaticBody2D
+Node2D
+Sprite2D
+RemoteTransform2D
+Camera2D
+Timer
