@@ -1,15 +1,13 @@
 extends CharacterBody2D
 
 @onready var animations = $AnimationPlayer
-
-var current_status = player_states.MOVE
-enum player_states {MOVE, ATTACK}
-
-var direction = Vector2.ZERO
-
 @onready var anim_tree = $AnimationTree
 @onready var anim_state = anim_tree.get("parameters/playback")
 
+enum player_states {MOVE, ATTACK, JUMP, DEAD}
+var current_state = player_states.MOVE
+
+var direction = Vector2.ZERO
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 var is_attacking = false
@@ -23,11 +21,13 @@ func _ready():
 	direction = Vector2(0,1)
 
 func _physics_process(delta):
-	match current_status:
+	match current_state:
 		player_states.MOVE:
 			move()
 		player_states.ATTACK:
 			attack()
+		player_states.JUMP:
+			jump()
 	if not is_on_floor():
 		velocity.y += gravity * delta
 	
@@ -45,6 +45,8 @@ func move():
 	if input_movement == 0:
 		anim_state.travel("Idle")
 	
+	if Input.is_action_just_pressed("attack"):
+		current_state = player_states.ATTACK
 
 
 	# Handle Jump.
@@ -57,17 +59,14 @@ func move():
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 #
-#	if velocity.x >= 0:
-#		animations.play("Player_Run_Right")
-#	if velocity.x <= 0:
-#		animations.play("Player_Run_Left")
-#	if velocity.x == 0:
-#		animations.play("Player_Idle")
 	move_and_slide()
 #
 func attack():
-	print("AH")
-#func _on_animated_sprite_2d_animation_looped():
-#	if animations. == "Attack":
-#		is_attacking=false
-#		animations.play("Idle")
+	anim_state.travel("Attack")
+	
+func jump():
+	pass
+	
+func on_state_reset():
+	current_state = player_states.MOVE
+	
