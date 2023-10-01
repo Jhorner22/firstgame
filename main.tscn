@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://clwnimi78bq3o" path="res://player.tscn" id="1_iotdi"]
 [ext_resource type="Script" path="res://main.gd" id="1_jd5x3"]
-[ext_resource type="Texture2D" uid="uid://dyf8s22b30u11" path="res://Assets/Magic Rock big.png" id="3_myhki"]
+[ext_resource type="Texture2D" uid="uid://dyf8s22b30u11" path="res://Magic Rock big.png" id="3_myhki"]
 [ext_resource type="PackedScene" uid="uid://dspubf461vxrg" path="res://skeleton.tscn" id="4_2im4l"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6fm78"]

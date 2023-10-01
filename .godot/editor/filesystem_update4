@@ -1,9 +1,4 @@
 res://player.tscn
-res://main.gd
-res://main.tscn
 res://Player.gd
-res://player.gd
-res://player_follow.gd
-res://Floor.tscn
+res://main.tscn
 res://skeleton.tscn
-res://skeleton.gd

@@ -124,7 +124,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Attack",
-"speed": 10.0
+"speed": 9.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -201,10 +201,14 @@ script = ExtResource("1_uxtak")
 position = Vector2(350, 344)
 sprite_frames = SubResource("SpriteFrames_55qa3")
 animation = &"Attack"
-frame_progress = 0.285686
+frame = 1
+frame_progress = 0.03598
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(347, 367)
 shape = SubResource("CapsuleShape2D_i0f4d")
 metadata/_edit_group_ = true
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="animation_looped" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_looped"]
