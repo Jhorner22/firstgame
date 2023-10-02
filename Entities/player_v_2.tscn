@@ -220,15 +220,17 @@ libraries = {
 }
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2(167, 89)
+position = Vector2(164, 87)
 polygon = PackedVector2Array(501, 148, 517, 142, 545, 151, 544, 206, 526, 210, 512, 209, 501, 189)
+metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(691, 248)
+position = Vector2(688, 246)
 texture = ExtResource("2_48sgv")
 hframes = 8
 vframes = 5
 frame = 39
+metadata/_edit_group_ = true
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource("AnimationNodeStateMachine_ulb7j")
@@ -241,8 +243,13 @@ parameters/Run/blend_position = 0
 parameters/Run/2/blend_position = 0
 
 [node name="Attack" type="Area2D" parent="."]
-position = Vector2(722, 242)
+position = Vector2(719, 240)
+metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Attack"]
 position = Vector2(10, 22.5)
 shape = SubResource("RectangleShape2D_dql45")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(692, 273)
+metadata/_edit_group_ = true

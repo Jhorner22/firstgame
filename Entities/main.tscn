@@ -3049,7 +3049,7 @@ layer_0/tile_data = PackedInt32Array(2555904, 0, 0, 2621440, 0, 1, 2686976, 0, 2
 position = Vector2(652, 404)
 
 [node name="PlayerV2" parent="." instance=ExtResource("5_4wsbf")]
-position = Vector2(-422, 206)
+position = Vector2(-278, 193)
 
 [connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
 [connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]

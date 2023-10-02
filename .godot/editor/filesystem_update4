@@ -1,9 +1,5 @@
-res://player.tscn
-res://main.tscn
-res://skeleton.tscn
-res://player_v_2.tscn
-res://player_v_2.gd
+res://Entities/player.tscn
+res://Entities/main.tscn
 res://Entities/skeleton.tscn
 res://Entities/player_v_2.tscn
-res://Entities/main.tscn
-res://Entities/player.tscn
+res://Entities/player_v_2.gd
